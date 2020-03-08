@@ -4,7 +4,7 @@ path = 'Day 1/day-1-input.txt'
 
 
 def calculate_fuel_required(fuel: int) -> int:
-    ans = math.floor(fuel/3) - 2
+    ans = fuel // 3 - 2
     return ans if ans > 0 else 0
 
 
